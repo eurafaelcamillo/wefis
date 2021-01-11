@@ -103,42 +103,42 @@ class Login extends React.Component {
                             <View style={styles.row}>
                                 <Logo/>
 
-    <View style={styles.cardBody}>
-        <Input icon="envelope"
-               placeholder="E-mail"
-               type="text"
-               styles={{ input: styles.input, iconeInput: styles.iconeInput, labelInput: styles.labelInput}}
-               placeholderTextColor={theme.COLORS.WHITE}
-               formValueChange={this.formValueChange}
-               value={this.state.form.email}
-               form={{
-                   stateName: "email",
-                   type: "general"
-               }}
-               keyboardType="email-address"
-               autoCapitalize="none"
-        />
+                            <View style={styles.cardBody}>
+                                <Input icon="envelope"
+                                       placeholder="E-mail"
+                                       type="text"
+                                       styles={{ input: styles.input, iconeInput: styles.iconeInput, labelInput: styles.labelInput}}
+                                       placeholderTextColor={theme.COLORS.WHITE}
+                                       formValueChange={this.formValueChange}
+                                       value={this.state.form.email}
+                                       form={{
+                                           stateName: "email",
+                                           type: "general"
+                                       }}
+                                       keyboardType="email-address"
+                                       autoCapitalize="none"
+                                />
 
-        <Input icon="lock"
-               placeholder="Senha"
-               type="text"
-               styles={{ input: styles.input, iconeInput: styles.iconeInput, labelInput: styles.labelInput}}
-               placeholderTextColor={theme.COLORS.WHITE}
-               formValueChange={this.formValueChange}
-               value={this.state.form.senha}
-               stateName="senha"
-               form={{
-                   stateName: "senha",
-                   type: "general"
-               }}
-               secureTextEntry
-        />
+                                <Input icon="lock"
+                                       placeholder="Senha"
+                                       type="text"
+                                       styles={{ input: styles.input, iconeInput: styles.iconeInput, labelInput: styles.labelInput}}
+                                       placeholderTextColor={theme.COLORS.WHITE}
+                                       formValueChange={this.formValueChange}
+                                       value={this.state.form.senha}
+                                       stateName="senha"
+                                       form={{
+                                           stateName: "senha",
+                                           type: "general"
+                                       }}
+                                       secureTextEntry
+                                />
 
-        <Button name={!this.state.request.loading ? "Confirmar" : "Carregando..."}
-                styles={{ button: styles.button, textButton: styles.textButton}}
-                disabled={this.state.request.loading}
-                onButtonPress={this.onFormSubmit}
-        />
+                                <Button name={!this.state.request.loading ? "Confirmar" : "Carregando..."}
+                                        styles={{ button: styles.button, textButton: styles.textButton}}
+                                        disabled={this.state.request.loading}
+                                        onButtonPress={this.onFormSubmit}
+                                />
     </View>
                         </View>
 

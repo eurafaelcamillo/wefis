@@ -92,8 +92,6 @@ export const logout = (navigation) => async dispatch => {
             .auth()
             .signOut();
 
-        localStorage.clear();
-
         dispatch({
             type: actionTypes.AUTH_LOGOUT
         });

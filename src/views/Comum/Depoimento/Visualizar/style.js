@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
         backgroundColor: theme.COLORS.BASE,
         paddingTop: 5,
         paddingBottom: 10,
-        maxHeight: '100vh'
+        maxHeight: '100%'
     },
     text: {
         alignSelf: "center",

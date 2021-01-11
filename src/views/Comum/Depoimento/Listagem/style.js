@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: theme.SIZES.BASE,
     },
     flatlist: {
-        paddingBottom: 95,
+        paddingBottom: 20,
         paddingTop: 5
     },
     body: {
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         backgroundColor: theme.COLORS.BASE,
         paddingTop: 5,
         paddingBottom: 10,
-        maxHeight: '100vh'
+        maxHeight: '100%'
     }
 });
 

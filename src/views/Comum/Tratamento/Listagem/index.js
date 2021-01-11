@@ -14,7 +14,6 @@ import {listagemTratamento as initialState} from "../../../../utils/constants";
 import update from "immutability-helper";
 import FooterToolbar from "../../../../components/Pattern/FooterToolbar";
 import Header from "../../../../components/Pattern/Header";
-import {getMessageByCode} from "../../../../utils/function/general";
 import EmptyList from "../../../../components/Pattern/EmptyList";
 import Item from "../../../../components/Pattern/Item";
 import formatterConstant from "../../../../utils/function/formatterConstant";

@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
     },
     userInfo: {
         marginTop: 30,
-        //marginBottom: 20,
         paddingHorizontal: theme.SIZES.BASE,
         alignSelf: "center",
     },
@@ -69,18 +68,16 @@ const styles = StyleSheet.create({
         color: theme.COLORS.WHITE,
         fontSize: 28,
         width: 33,
-        height: 33,
         marginLeft: 15,
         alignSelf: "center"
     },
     labelInput: {
-        height: 30,
         color: theme.COLORS.WHITE,
         fontSize: 14,
         flex: 1,
         marginRight: 17,
         marginLeft: 13,
-        marginTop: 14
+        alignSelf: "center"
     }
 });
 

@@ -24,7 +24,7 @@ class Menu extends React.Component {
     };
 
     check = async ()  => {
-        const checkToken =  await this.props.checkToken(this.props.navigation);
+        const checkToken = await this.props.checkToken(this.props.navigation);
 
         if(!checkToken) {
             this.props.navigation.navigate("Acesso");

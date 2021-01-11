@@ -14,7 +14,6 @@ import {listagemHospital as initialState} from "../../../../utils/constants";
 import update from "immutability-helper";
 import FooterToolbar from "../../../../components/Pattern/FooterToolbar";
 import Header from "../../../../components/Pattern/Header";
-import {getMessageByCode} from "../../../../utils/function/general";
 import EmptyList from "../../../../components/Pattern/EmptyList";
 import Card from "../../../../components/Pattern/Card";
 import Input from "../../../../components/Pattern/Input";
